@@ -11,8 +11,6 @@ function loaded(){
 		editor.setFontSize(fontsize)
 		editor.clearSelection()
 
-
-
 	var file = document.getElementById('edit_module_file')
 	file.addEventListener('change',function() {
 	      edit_module_read_handler()
